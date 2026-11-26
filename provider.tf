@@ -19,5 +19,8 @@ provider "aws" {
 provider "azurerm" {
   # Configuration options
   features {}
-  subscription_id = "2df30ff1-915d-4d35-974a-3d3155aaa413"
+  subscription_id = var.subscription_id
+  client_id       = var.client_id
+  client_secret   = var.client_secret
+  tenant_id       = var.tenant_id
 }
