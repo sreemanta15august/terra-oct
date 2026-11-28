@@ -1,7 +1,7 @@
- resource "azurerm_resource_group" "example" {
-   name     = "sree-win"
-   location = "eastus2"
- }
+# resource "azurerm_resource_group" "example" {
+ #  name     = "sree-win"
+ #  location = "eastus2"
+ # }
 
  # resource "azurerm_virtual_network" "example" {
  #  name                = "sree-network"
